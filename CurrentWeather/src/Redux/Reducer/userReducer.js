@@ -27,6 +27,7 @@ const homeNotificationReducer = (state = initialState, action = {}) => {
       return {
         ...state,
         loader: false,
+        data: {},
         error:{hasError: true, errorData: action.payload},
       };
     default:
