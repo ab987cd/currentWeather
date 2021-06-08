@@ -74,7 +74,7 @@ const styles = StyleSheet.create({
     justifyContent: 'center',
     alignSelf: 'center',
     zIndex: 1001,
-    height: scale(50),
-    width: scale(50),
+    height: scale(100),
+    width: scale(100),
   },
 });

@@ -1,8 +1,14 @@
 import React from 'react';
-import {Text} from 'react-native'
+import {Provider} from 'react-redux';
+import HomeScreen from './src/Screens/Home';
+import {store} from './src/Redux';
 
 const App = () => {
-  return <Text> Hello World </Text>;
+  return (
+    <Provider store={store}>
+      <HomeScreen />
+    </Provider>
+  );
 };
 
 export default App;

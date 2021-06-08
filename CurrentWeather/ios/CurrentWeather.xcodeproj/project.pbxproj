@@ -91,7 +91,6 @@
 				EC0757E24DC305BBA0F2767E /* Pods-CurrentWeather-CurrentWeatherTests.debug.xcconfig */,
 				4B9D34D9FB41087FCE529BD1 /* Pods-CurrentWeather-CurrentWeatherTests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};

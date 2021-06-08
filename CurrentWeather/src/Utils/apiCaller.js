@@ -31,7 +31,8 @@ const APICaller = (
     .get(reqUrl)
       .then(response => {
         if (__DEV__) console.log('%c{res}', 'color: green', ' => ', response); // eslint-disable-line no-console
-        resolve(response);      
+        // added for loader as it was not visible because of quick response 
+        setTimeout(()=>resolve(response), 200)  
       })
       .catch(error => {
         if (__DEV__)
